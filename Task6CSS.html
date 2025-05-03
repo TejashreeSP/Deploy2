@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 6</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background: white;
+    }
+
+    h1 {
+      color: purple;
+      font-size: 24pt;
+      font-weight: bold;
+    }
+
+    .sidebar {
+      float: left;
+      margin: 60px 20px 0 40px;
+    }
+
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .sidebar li {
+      margin-bottom: 10px;
+    }
+
+    .sidebar a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      background-color: white;
+      border: 1px solid black;
+      padding: 5px;
+      color: blue;
+      font-weight: bold;
+      width: 130px;
+    }
+
+    .sidebar a::before {
+      content: "";
+      display: inline-block;
+      background: black;
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+
+    .container {
+      background-color: #dcdc6b;
+      padding: 20px;
+      border: 1px dotted #999;
+      width: 500px;
+      margin-top: 60px;
+    }
+
+    p {
+      color: #444;
+      font-size: 14px;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-style: italic;
+      font-size: 12px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid gray;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <ul>
+      <li><a href="#">Home page</a></li>
+      <li><a href="#">Musings</a></li>
+      <li><a href="#">My town</a></li>
+      <li><a href="#">Links</a></li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <h1>My first styled page</h1>
+    <p>Welcome to my styled page!</p>
+    <p>It lacks images, but at least it has style. And it has links, even if they don’t go anywhere...</p>
+    <p>There should be more here, but I don’t know what yet.</p>
+    <footer>
+      <hr>
+      Made 5 April 2004<br>
+      by myself.
+    </footer>
+  </div>
+
+</body>
+</html>

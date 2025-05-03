@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 1</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    h2 {
+      color: royalblue;
+      font-size: 36px;
+      margin-top: 50px;
+    }
+
+    table {
+        width: 50%;
+      border-collapse: separate;
+      border-spacing: 0;
+      background-color: #a3dfe3;
+      border: 2px solid #57959a;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #57959a;
+      padding: 12px 24px;
+      text-align: left;
+      border-radius: 10px;
+    }
+
+    th {
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 80px);
+      justify-content: center;
+      gap: 10px;
+      margin-top: 40px;
+    }
+
+    .box {
+      width: 70px;
+      height: 50px;
+      border: 2px solid #89c23f;
+      border-radius: 12px;
+    }
+
+    .oval {
+      width: 70px;
+      height: 50px;
+      border: 2px solid #89c23f;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Task 1</h2>
+
+  <table>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>80</td>
+    </tr>
+  </table>
+
+  <div class="grid">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="oval"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+</body>
+</html>

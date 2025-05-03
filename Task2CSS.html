@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h2 {
+      color: royalblue;
+      font-size: 36px;
+      margin-top: 40px;
+    }
+
+    .nav-section {
+      display: flex;
+      justify-content: space-around;
+      width: 80%;
+      margin-top: 40px;
+    }
+
+    /* Vertical Navigation Bar */
+    .vertical-nav {
+      border: 2px solid black;
+      width: 150px;
+    }
+
+    .vertical-nav a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .vertical-nav a.home {
+      background-color: orange;
+      color: white;
+      font-weight: bold;
+    }
+
+    .vertical-nav a:not(.home) {
+      background-color: #b9e4f0;
+      color: blue;
+    }
+
+    /* Horizontal Navigation Bar */
+    .horizontal-nav {
+      border: 2px solid black;
+      display: flex;
+    }
+
+    .horizontal-nav a {
+      padding: 12px 20px;
+      text-decoration: none;
+      text-align: center;
+      border-right: 1px solid white;
+      font-size: 16px;
+    }
+
+    .horizontal-nav a:last-child {
+      border-right: none;
+    }
+
+    .horizontal-nav a.home {
+      background-color: gray;
+      color: white;
+      font-weight: bold;
+    }
+
+    .horizontal-nav a:not(.home) {
+      background-color: lightgray;
+      color: blue;
+    }
+
+    .label {
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Task 2</h2>
+
+  <div class="nav-section">
+    <!-- Vertical Nav -->
+    <div>
+      <div class="label">Vertical Navigation Bar</div>
+      <div class="vertical-nav">
+        <a class="home" href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">CSS</a>
+        <a href="#">HTML</a>
+        <a href="#">Bootstrap</a>
+      </div>
+    </div>
+
+    <!-- Horizontal Nav -->
+    <div>
+      <div class="label">Horizontal Navigation Bar</div>
+      <div class="horizontal-nav">
+        <a class="home" href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

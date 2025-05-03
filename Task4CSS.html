@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 4</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+    }
+
+    .task-container {
+      margin-left: 100px;
+      padding: 40px;
+    }
+
+    h2 {
+      color: royalblue;
+      font-size: 36px;
+    }
+
+    .sidenav {
+      height: 100%;
+      width: 60px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #fff;
+      padding-top: 20px;
+    }
+
+    .sidenav a {
+      position: absolute;
+      left: -100px;
+      transition: 0.3s;
+      padding: 15px;
+      width: 160px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 0 5px 5px 0;
+    }
+
+    .sidenav a:hover {
+      left: 0;
+    }
+
+    .green {
+      top: 80px;
+      background-color: #04AA6D;
+    }
+
+    .blue {
+      top: 140px;
+      background-color: #2196F3;
+    }
+
+    .red {
+      top: 200px;
+      background-color: #f44336;
+    }
+
+    .gray {
+      top: 260px;
+      background-color: #555;
+    }
+
+    .content-box {
+      border: 1px solid #999;
+      padding: 20px;
+      width: fit-content;
+      margin-top: 30px;
+    }
+
+    .content-box h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .content-box p {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidenav">
+    <a href="#" class="green">Green</a>
+    <a href="#" class="blue">Blue</a>
+    <a href="#" class="red">Red</a>
+    <a href="#" class="gray">Gray</a>
+  </div>
+
+  <div class="task-container">
+    <h2>Task 4</h2>
+    <div class="content-box">
+      <h3>Hoverable Sidenav Buttons</h3>
+      <p>Hover over the buttons in the left side navigation to open them.</p>
+    </div>
+  </div>
+
+</body>
+</html>
